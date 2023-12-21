@@ -1,0 +1,153 @@
+.one{
+    width: 700px;
+   position: relative;
+   left: 100px;
+border-radius: 5px 0 0 5px;
+z-index: 9999;
+background-color: #fff;
+display: none;
+place-self: center;
+box-shadow: 5px 5px 5px 8px rgba(08, 88,0, 10,5);
+height: 100%;
+}
+.icon{
+    height: fit-content;
+    width: fit-content;
+}
+body{
+    display: grid;
+
+    background-image: url(bage/photo-1587620962725-abab7fe55159.avif);
+    background-repeat: no-repeat;
+   background-size: cover;
+   z-index: -1;
+   background-attachment: fixed;
+}
+
+p{
+
+    font-size: 16px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: oblique;
+letter-spacing: 1px;
+
+
+}
+
+
+
+header{
+width: 100%;
+z-index: 2;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fff;
+}
+
+a{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: unset;
+    border-radius: 5px;
+    background-color: #444;
+    text-decoration: none;
+    color: orangered;
+    box-shadow: 1px 2px 2px 2px rgba(255, 68, 0, 0.431);
+
+}
+
+.soshal{
+
+    width: 200px;
+background-color: #fff;
+box-shadow: 5px 5px 5px 5px #fff;
+    height: 100px;
+
+    position: relative;
+    left: 1100px;
+    display: none;
+   
+}
+
+.soshal a{
+
+background-color: aqua;
+    display: block;
+    width: fit-content;
+    color: black;
+    box-shadow: 0 4px 4px #555;
+}
+
+.a1{
+
+    position: relative;
+    left: 100px;
+
+    
+}
+
+
+.a2{
+
+    position: relative;
+    bottom: 30px;
+
+    
+}
+
+
+.a3{
+
+    position: relative;
+    left: 100px;
+
+    
+}
+.a4{
+
+    position: relative;
+ bottom:  30px;
+
+    
+}
+.jassim{
+
+    position: relative;
+
+    top: 300px;
+    left: 100px;
+}
+
+
+.jassim h1 {
+    color:rgba(0, 0, 255, 0.625);
+    text-shadow: 8px 8px 8px 8px #000;
+
+}
+
+.jassim  p{
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    color:red ;
+    text-shadow: 8px 8px 8px 8px #000;
+}
+
+.jassim button{
+color: #000;
+font-style: italic;
+background-color: rgba(255, 0, 0, 0.433);
+border-radius: 10px;
+
+}
+
+
+
+.jassim button:hover{
+transform: scale(1.1,1.1);
+color: #fff;
+    background-color: #000;
+}
+
